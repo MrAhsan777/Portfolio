@@ -75,7 +75,7 @@ const About = () => {
                 Bachelor of Science in Artificial Intelligence
               </h3>
               <p className="text-lg text-muted-foreground mb-2">
-                Quest University | 3rd Year Student
+                Quest University | 2nd Year Student
               </p>
               <p className="text-foreground">
                 Focusing on advanced AI concepts, machine learning algorithms, and practical applications 
