@@ -113,7 +113,7 @@ const Certificates = () => {
             <div className="text-muted-foreground">Certificates Earned</div>
           </div>
           <div className="bg-card border border-border rounded-2xl p-6 text-center card-3d glow-effect">
-            <div className="text-3xl font-bold text-gradient mb-2">3+</div>
+            <div className="text-3xl font-bold text-gradient mb-2">2+</div>
             <div className="text-muted-foreground">Years of Learning</div>
           </div>
           <div className="bg-card border border-border rounded-2xl p-6 text-center card-3d glow-effect">
