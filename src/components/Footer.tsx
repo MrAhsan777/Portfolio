@@ -8,22 +8,22 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/MrAhsan777',
       icon: Github,
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/ahsanarain777/',
       icon: Linkedin,
     },
     {
       name: 'Instagram',
-      url: 'https://instagram.com',
+      url: 'https://www.instagram.com/ahsanarain_777/',
       icon: Instagram,
     },
     {
       name: 'Facebook',
-      url: 'https://facebook.com',
+      url: 'https://web.facebook.com/ahsan.arain.39501/',
       icon: Facebook,
     },
   ];
@@ -31,17 +31,17 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: Mail,
-      text: 'ahsan@example.com',
+      text: 'ahsanarain4246@gmail.com',
       href: 'mailto:ahsan@example.com',
     },
     {
       icon: Phone,
-      text: '+92 XXX XXXXXXX',
+      text: '+92 327 7007580',
       href: 'tel:+92XXXXXXXXX',
     },
     {
       icon: MapPin,
-      text: 'Karachi, Pakistan',
+      text: 'Nawabshah, Sindh, Pakistan',
       href: '#',
     },
   ];
