@@ -35,7 +35,7 @@ const About = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             I'm a dedicated AI & Machine Learning Engineer with a passion for creating intelligent solutions 
-            that solve real-world problems. Currently in my 3rd year of BSAI at Quest University, 
+            that solve real-world problems. Currently in my 2nd year of BSAI at Quest University, 
             I combine academic knowledge with practical experience to deliver innovative AI applications.
           </p>
         </div>
