@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Calendar, ExternalLink } from 'lucide-react';
 
@@ -8,7 +7,7 @@ const Certificates = () => {
       title: 'Machine Learning Specialization',
       issuer: 'Stanford University | Coursera',
       date: '2024',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop',
+      image: '1.png',
       description: 'Comprehensive course covering supervised learning, unsupervised learning, and best practices in machine learning.',
       credentialUrl: 'https://coursera.org',
     },
@@ -16,7 +15,7 @@ const Certificates = () => {
       title: 'Deep Learning Specialization',
       issuer: 'DeepLearning.AI | Coursera',
       date: '2024',
-      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop',
+      image: '2.png',
       description: 'Advanced deep learning techniques including neural networks, CNNs, RNNs, and transformer models.',
       credentialUrl: 'https://coursera.org',
     },
@@ -59,15 +58,17 @@ const Certificates = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="md:flex">
-                {/* Certificate Image */}
+                {/* Certificate Image with 16:9 Aspect Ratio */}
                 <div className="md:w-1/3 relative overflow-hidden">
-                  <img
-                    src={cert.image}
-                    alt={cert.title}
-                    className="w-full h-48 md:h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <Award className="w-8 h-8 text-primary" />
+                  <div className="relative w-full aspect-[16/9] md:h-full">
+                    <img
+                      src={cert.image}
+                      alt={cert.title}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Award className="w-8 h-8 text-primary" />
+                    </div>
                   </div>
                 </div>
 
