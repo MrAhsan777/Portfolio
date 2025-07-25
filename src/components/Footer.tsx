@@ -104,7 +104,7 @@ const Footer = () => {
               © {currentYear} Muhammad Ahsan. All rights reserved.
             </div>
             <div className="flex items-center gap-1 text-muted-foreground text-sm">
-              Made with <Heart className="w-4 h-4 text-red-500" /> using React & Three.js
+              
             </div>
           </div>
         </div>
