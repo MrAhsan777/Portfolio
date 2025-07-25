@@ -114,10 +114,16 @@ const Projects = () => {
 
         {/* View More Projects Button */}
         <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 bg-card border border-border px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect">
-            <Github className="https://github.com/MrAhsan777?tab=repositories" />
-            View All Projects on GitHub
-          </button>
+          <a
+  href="https://github.com/MrAhsan777?tab=repositories"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 bg-card border border-border px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect"
+>
+  <Github className="w-5 h-5" />
+  View All Projects on GitHub
+</a>
+
         </div>
       </div>
     </section>
