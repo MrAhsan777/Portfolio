@@ -38,8 +38,8 @@ const Certificates = () => {
   ];
 
   return (
-    <section id="certificates" className="py-20 relative">
-  <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+   <section id="certificates" className="py-20 relative">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
         Certificates & <span className="text-gradient">Achievements</span>
@@ -50,14 +50,14 @@ const Certificates = () => {
       </p>
     </div>
 
-    <div className="space-y-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {certificates.map((cert, index) => (
         <div
           key={cert.title}
           className="bg-card border border-border rounded-2xl overflow-hidden card-3d hover:glow-effect transition-all duration-300 group"
           style={{ animationDelay: `${index * 0.1}s` }}
         >
-          {/* Certificate Image with 16:9 Aspect Ratio - Full Width */}
+          {/* Certificate Image with 16:9 Aspect Ratio */}
           <div className="relative w-full aspect-[16/9]">
             <img
               src={cert.image}
@@ -70,7 +70,7 @@ const Certificates = () => {
           </div>
 
           {/* Certificate Content */}
-          <div className="p-6">
+          <div className="p-5 md:p-6">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3 gap-2">
               <h3 className="text-xl font-bold text-foreground group-hover:text-gradient transition-colors duration-200">
                 {cert.title}
@@ -120,6 +120,7 @@ const Certificates = () => {
     </div>
   </div>
 </section>
+
 
   );
 };
