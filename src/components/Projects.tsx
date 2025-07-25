@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'Face-Detection App',
       description: 'Facial recognition app with streamlit for gui , it has both live and custom features and based on known_faces it detects the faces and tell who he is or if he dont known any faces it simply said unknown face its still under development but here are some results',
       image: '3.jpg',
-      technologies: ['Python', 'Yolo V5', 'Stremlit],
+      technologies: ['Python', 'Yolo V5', 'Stremlit'],
       github: 'https://github.com/MrAhsan777/face-detection-app---python',
       demo: 'https://demo.com',
       icon: Bot,
