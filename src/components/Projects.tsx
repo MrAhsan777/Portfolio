@@ -11,7 +11,7 @@ const Projects = () => {
       technologies: ['Python', 'Yolo V5', 'Stremlit],
       github: 'https://github.com/MrAhsan777/face-detection-app---python',
       demo: 'https://demo.com',
-      icon: Bot,
+      icon: App,
     },
     {
       title: 'Predictive Analytics Dashboard',
