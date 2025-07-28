@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Fiverr, Instagram, Facebook } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
