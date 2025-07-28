@@ -82,7 +82,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary glow-effect card-3d">
                 <img
-                  src="/lovable-uploads/64ff281e-f82d-4847-809f-cd959c9ffb49.png"
+                  src="/image-uploads/64ff281e-f82d-4847-809f-cd959c9ffb49.png"
                   alt="Muhammad Ahsan"
                   className="w-full h-full object-cover"
                 />
