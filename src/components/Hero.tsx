@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Fiverr, Instagram, Facebook } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -49,14 +49,6 @@ const Hero = () => {
                 className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
               >
                 <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
-              </a>
-              <a 
-                href="https://www.fiverr.com/s/5rp1xpk" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
-              >
-                <Fiverr className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
               </a>
               <a 
                 href="https://www.instagram.com/ahsanarain_777/" 
