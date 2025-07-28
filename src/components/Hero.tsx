@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Instagram, Facebook } from 'lucide-react';
 
@@ -35,7 +36,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-6 justify-center lg:justify-start mb-8">
               <a 
-                href="https://github.com/MrAhsan777" 
+                href="https://github.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
@@ -43,7 +44,7 @@ const Hero = () => {
                 <Github className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
               </a>
               <a 
-                href="https://www.linkedin.com/in/ahsanarain777/" 
+                href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
@@ -51,7 +52,7 @@ const Hero = () => {
                 <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
               </a>
               <a 
-                href="https://www.instagram.com/ahsanarain_777/" 
+                href="https://instagram.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
@@ -59,7 +60,7 @@ const Hero = () => {
                 <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform duration-200" />
               </a>
               <a 
-                href="https://web.facebook.com/ahsan.arain.39501/" 
+                href="https://facebook.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow-effect group"
@@ -83,7 +84,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary glow-effect card-3d">
                 <img
-                  src="/image-uploads/64ff281e-f82d-4847-809f-cd959c9ffb49.png"
+                  src="/lovable-uploads/64ff281e-f82d-4847-809f-cd959c9ffb49.png"
                   alt="Muhammad Ahsan"
                   className="w-full h-full object-cover"
                 />
