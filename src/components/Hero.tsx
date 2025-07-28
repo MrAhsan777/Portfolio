@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Instagram, Facebook } from 'lucide-react';
 
